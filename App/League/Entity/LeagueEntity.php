@@ -1,7 +1,8 @@
-<?php
+<?php namespace App\League\Entity;
 
+use App\Database\Entity\Entity;
 
-class LeagueEntity
+class LeagueEntity extends Entity
 {
     private $id;
     private $name;

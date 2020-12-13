@@ -1,6 +1,5 @@
 <?php namespace App\Club\Repository;
 
-
 use App\Database\DatabaseConnector;
 use App\Database\Repository\Repository;
 use App\Club\Entity\ClubEntity;

@@ -22,8 +22,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="First commit">
+    <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_12_2020_14_29__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_12_2020_14_29__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Club/Entity/ClubEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Club/Entity/ClubEntity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Club/Repository/ClubRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Club/Repository/ClubRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Group/Entity/GroupEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Group/Entity/GroupEntity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/League/Entity/LeagueEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/League/Entity/LeagueEntity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/League/Repository/LeagueRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/League/Repository/LeagueRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Player/Entity/PlayerEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Player/Entity/PlayerEntity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Player/Repository/PlayerRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Player/Repository/PlayerRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,9 +116,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="220" y="251" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607866071707" />
-    <state x="72" y="261" key="Vcs.Push.Dialog.v2" timestamp="1607865931572">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="72" y="259" key="Vcs.Push.Dialog.v2" timestamp="1607868903143">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="72" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607868903143" />
     <state x="72" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1607865931572" />
+    <state x="1257" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607869648145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1257" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607869648145" />
   </component>
 </project>

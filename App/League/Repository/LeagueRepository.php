@@ -1,6 +1,5 @@
 <?php namespace App\League\Repository;
 
-
 use App\Database\DatabaseConnector;
 use App\Database\Repository\Repository;
 use App\League\Entity\LeagueEntity;
