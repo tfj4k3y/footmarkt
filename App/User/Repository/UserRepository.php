@@ -1,5 +1,9 @@
-<?php
+<?php namespace App\User\Repository;
 
+use App\Database\DatabaseConnector;
+use App\Database\Repository\Repository;
+use App\User\Entity\UserEntity;
+use PDO;
 
 class UserRepository extends Repository
 {
@@ -14,3 +18,4 @@ class UserRepository extends Repository
         return 'user';
     }
 }
+

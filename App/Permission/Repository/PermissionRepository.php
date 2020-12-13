@@ -1,7 +1,7 @@
 <?php
 
 
-class PermissionReposiroty extends Repository
+class PermissionRepository extends Repository
 {
 
     protected function getEntityName()

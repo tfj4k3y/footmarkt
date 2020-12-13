@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/Club/Entity/ClubEntity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Club/Repository/ClubRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/League/Entity/LeagueEntity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/League/Repository/LeagueRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Player/Entity/PlayerEntity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Player/Repository/PlayerRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2020_14_44__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2020_14_44__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,24 +38,17 @@
   </component>
   <component name="ProjectId" id="1lYC4smyYK0kCN7DkOJBVDoJFKv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kuba\PhpstormProjects\footmarkt\diagrams" />
-      <recent name="C:\Users\Kuba\PhpstormProjects\footmarkt\schemas" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,49 +59,58 @@
       <option name="presentableId" value="Default" />
       <updated>1607764456080</updated>
       <workItem from="1607764460547" duration="633000" />
-      <workItem from="1607778093996" duration="2534000" />
+      <workItem from="1607778093996" duration="296000" />
+      <workItem from="1607859295484" duration="33000" />
+      <workItem from="1607859388404" duration="1951000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
-      <created>1607778718050</created>
+      <created>1607865894896</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1607778718050</updated>
+      <updated>1607865894896</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1607865925787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607865925787</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607779635986">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="273" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1607866057806">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607779635986" />
-    <state x="1245" y="258" key="#com.intellij.ide.util.MemberChooser" timestamp="1607868160294">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="273" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1607866057806" />
+    <state x="220" y="251" key="NewPhpClassDialog" timestamp="1607866071707">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1245" y="258" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607868160294" />
-    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1607778716278">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="220" y="251" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607866071707" />
+    <state x="72" y="261" key="Vcs.Push.Dialog.v2" timestamp="1607865931572">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607778716278" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1607778669234">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607778669234" />
-    <state x="1246" y="329" key="NewPhpClassDialog" timestamp="1607868579852">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1246" y="329" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607868579852" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607779037866">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607779037866" />
+    <state x="72" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1607865931572" />
   </component>
 </project>
