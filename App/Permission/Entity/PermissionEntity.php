@@ -1,5 +1,6 @@
-<?php
+<?php namespace App\Permission\Entity;
 
+use App\Database\Entity\Entity;
 
 class PermissionEntity extends Entity
 {

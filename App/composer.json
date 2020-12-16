@@ -1,0 +1,23 @@
+{
+  "name": "footmarkt/App",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Jakub Mocek",
+      "email": "jakubmocek2002@gmail.com"
+    },
+    {
+      "name": "Kevin Jankowski",
+      "email": "kevin.jankowski0@gmail.com"
+    },
+    {
+      "name": "Damian Zamęcki",
+      "email": "damianzameckiofficial@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  }
+}

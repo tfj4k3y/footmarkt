@@ -1,6 +1,4 @@
-<?php
-
-namespace App\Database\Entity;
+<?php namespace App\User\Entity;
 
 use App\Database\Entity\Entity;
 
