@@ -3,15 +3,31 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="Dodałem Entity i Repository do tabel: &#10;- comments&#10;- user&#10;- group&#10;- permission&#10;_ group_permission&#10;&#10;Zrobiłem też klasy abstrakcyjne w App/Database">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2020_14_44__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2020_14_44__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2020_14_44_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2020_14_44__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_12_2020_14_29_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_12_2020_14_29__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Database/Entity/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Database/Entity/Entity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Database/Repository/Repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Database/Repository/Repository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Permission/Repository/PermissionReposiroty.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Permission/Repository/PermissionRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/User/Entity/UserEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Entity/UserEntity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/User/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Repository/UserRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lYC4smyYK0kCN7DkOJBVDoJFKv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/xampp/xampp/xampp/htdocs/Osoba" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -47,7 +67,25 @@
       <workItem from="1607778093996" duration="296000" />
       <workItem from="1607859295484" duration="33000" />
       <workItem from="1607859388404" duration="1951000" />
+      <workItem from="1611840282744" duration="691000" />
+      <workItem from="1611998601807" duration="62000" />
+      <workItem from="1614934246921" duration="534000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1607865894896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607865894896</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1607865925787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607865925787</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,5 +102,31 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="273" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1614934360715">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="273" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1614934360715" />
+    <state x="775" y="325" key="FileChooserDialogImpl" timestamp="1611998659245">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="775" y="325" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1611998659245" />
+    <state x="652" y="333" key="NewPhpClassDialog" timestamp="1614934720607">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="652" y="333" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1614934720607" />
+    <state x="72" y="261" key="Vcs.Push.Dialog.v2" timestamp="1607865931572">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="72" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1607865931572" />
+    <state x="304" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607867150350">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="304" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1607867150350" />
   </component>
 </project>
