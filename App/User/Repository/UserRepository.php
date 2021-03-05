@@ -17,5 +17,15 @@ class UserRepository extends Repository
     {
         return 'user';
     }
+    public function isUserWithPasswordExists($username, $password) {
+        $query = $this->prepare("Select * from " . $this->getTableName() . " where username=:username and password_hash=:password_hash");
+
+        $query->execute(array(
+            ":username" => $username,
+            ":password_hash" => sha1($password)
+        ));
+
+        return $query->rowCount() > 0;
+    }
 }
 
