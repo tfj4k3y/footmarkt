@@ -1,5 +1,6 @@
-<?php
+<?php namespace App\Comments\Entity;
 
+use App\Database\Entity\Entity;
 
 class CommentsEntity extends Entity
 {

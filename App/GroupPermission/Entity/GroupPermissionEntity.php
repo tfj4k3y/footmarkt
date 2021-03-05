@@ -1,5 +1,6 @@
-<?php
+<?php namespace App\GroupPermission\Entity;
 
+use App\Database\Entity\Entity;
 
 class GroupPermissionEntity extends Entity
 {

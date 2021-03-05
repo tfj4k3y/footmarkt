@@ -1,0 +1,29 @@
+{
+  "name": "footmarkt/App",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Jakub Mocek",
+      "email": "jakubmocek2002@gmail.com"
+    },
+    {
+      "name": "Kevin Jankowski",
+      "email": "kevin.jankowski0@gmail.com"
+    },
+    {
+      "name": "Damian Zamęcki",
+      "email": "damianzameckiofficial@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*",
+    "bramus/router": "~1.5",
+    "zeptech/annotations": "1.1.0",
+    "haydenpierce/class-finder": "^0.4.3",
+    "symfony/serializer": "v3.3.0",
+    "symfony/property-access": "v3.3.0",
+    "firebase/php-jwt": "^5.2"
+  }
+}

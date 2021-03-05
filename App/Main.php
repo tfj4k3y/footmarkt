@@ -1,7 +1,11 @@
-<?php
+<?php namespace App;
 
 
-class Main
-{
+use App\Router\RestRouter;
 
+class Main {
+
+    public function run() {
+        RestRouter::run();
+    }
 }

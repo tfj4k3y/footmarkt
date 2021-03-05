@@ -1,5 +1,6 @@
-<?php
+<?php namespace App\Group\Entity;
 
+use App\Database\Entity\Entity;
 
 class GroupEntity extends Entity
 {
