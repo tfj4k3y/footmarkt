@@ -3,27 +3,14 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="Dodałem Entity i Repository do tabel: &#10;- comments&#10;- user&#10;- group&#10;- permission&#10;_ group_permission&#10;&#10;Zrobiłem też klasy abstrakcyjne w App/Database">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2020_14_44__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2020_14_44__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Database/Entity/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Database/Entity/Entity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Database/Repository/Repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Database/Repository/Repository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Permission/Repository/PermissionReposiroty.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Permission/Repository/PermissionRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/User/Entity/UserEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Entity/UserEntity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/User/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Repository/UserRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +25,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lYC4smyYK0kCN7DkOJBVDoJFKv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -80,19 +64,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1233" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1614935503246">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="1233" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1614935503246" />
-    <state x="1032" y="261" key="Vcs.Push.Dialog.v2" timestamp="1614935164795">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="1032" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1614935164795" />
-    <state x="1257" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614935150266">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="1257" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1614935150266" />
   </component>
 </project>
