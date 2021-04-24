@@ -10,9 +10,9 @@ class JwtHelper {
     const ORIGIN = "http://localhost";
     const JWT_SIGNING_ALGORITHM = 'HS256';
 
-    public static function generateUserToken($username) {
+    public static function generateUserToken($login) {
         return JWT::encode(
-            self::buildTokenPayload($username),
+            self::buildTokenPayload($login),
             self::AUTH_TOKEN_KEY,
             self::JWT_SIGNING_ALGORITHM
         );

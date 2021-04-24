@@ -4,7 +4,7 @@
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
 use App\User\Model\UserRequest;
-use App\User\Service\UserService;
+use App\User\Service\NationalityService;
 use Doctrine\Common\Annotations\AnnotationReader;
 use Doctrine\Common\Annotations\AnnotationRegistry;
 use ReflectionClass;
@@ -22,7 +22,7 @@ class UserController {
      * @param $userService
      */
     public function __construct() {
-        $this->userService = new UserService();
+        $this->userService = new NationalityService();
     }
 
 

@@ -10,7 +10,7 @@ use App\User\Model\UserRequest;
 use App\User\Model\UserModel;
 use App\User\Repository\UserRepository;
 
-class UserService
+class NationalityService
 {
     const USER_GROUP_ID = 1;
 

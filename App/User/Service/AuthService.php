@@ -14,7 +14,7 @@ class AuthService
      * AuthService constructor.
      */
     public function __construct() {
-        $this->userService = new UserService();
+        $this->userService = new NationalityService();
     }
 
     public function login($login, $password) {

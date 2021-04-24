@@ -12,4 +12,9 @@ class StatsRepository extends Repository
         return "nationality";
     }
 
+    protected function isNationalityExists($id): string
+    {
+        return "isNationalityExist: ".$id;
+    }
+
 }
