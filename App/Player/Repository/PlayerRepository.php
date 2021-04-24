@@ -14,4 +14,11 @@ class PlayerRepository extends Repository {
     protected function getTableName() {
         return "player";
     }
+
+    public function isPlayerExists($id): string
+    {
+        return "isPlayerExist: ".$id;
+    }
+
+
 }
