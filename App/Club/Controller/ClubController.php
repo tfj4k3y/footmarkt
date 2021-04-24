@@ -34,6 +34,7 @@ class ClubController {
     }
 
     /**
+     * @Authorized(permission="sport_data_addition")
      * @Action(method="POST")
      */
     public function addClub() {
@@ -41,7 +42,7 @@ class ClubController {
     }
 
     /**
-     * @Authorized
+     *
      * @Action(method="GET", path="/{id}")
      */
     public function getClub($id) {
@@ -49,6 +50,7 @@ class ClubController {
     }
 
     /**
+     * @Authorized(permission="sport_data_edition")
      * @Action(method="PUT", path="/{id}")
      */
     public function updateClub($id) {
@@ -56,8 +58,10 @@ class ClubController {
     }
 
     /**
+     * @Authorized(permission="sport_data_deletion")
      * @Action(method="DELETE", path="/{id}")
      */
+
     public function deleteClub($id) {
         echo sprintf("Deleted club with id: %s", array($id));
     }
