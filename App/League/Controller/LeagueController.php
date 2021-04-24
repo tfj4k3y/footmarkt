@@ -34,6 +34,7 @@ class LeagueController {
     }
 
     /**
+     * @Authorized(permission="sport_data_addition")
      * @Action(method="POST")
      */
     public function addLeague() {
@@ -41,7 +42,6 @@ class LeagueController {
     }
 
     /**
-     * @Authorized
      * @Action(method="GET", path="/{id}")
      */
     public function getLeague($id) {
@@ -49,6 +49,7 @@ class LeagueController {
     }
 
     /**
+     * @Authorized(permission="sport_data_edition")
      * @Action(method="PUT", path="/{id}")
      */
     public function updateLeague($id) {
@@ -56,6 +57,7 @@ class LeagueController {
     }
 
     /**
+     * @Authorized(permission="sport_data_deletion")
      * @Action(method="DELETE", path="/{id}")
      */
     public function deleteLeague($id) {

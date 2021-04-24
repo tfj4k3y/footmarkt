@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="Dodane Controller, Service, Repository do Stats i Position.">
+    <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="Dodałem Entity i Repository do tabel: &#10;- comments&#10;- user&#10;- group&#10;- permission&#10;_ group_permission&#10;&#10;Zrobiłem też klasy abstrakcyjne w App/Database">
+      <change afterPath="$PROJECT_DIR$/App/Nationality/Controller/NationalityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Nationality/Service/NationalityService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/footmarkt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/footmarkt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Nationality/Controller/NationalityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Nationality/Controller/NationalityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Position/Conroller/PositionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Position/Conroller/PositionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Stats/Controller/StatsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Stats/Controller/StatsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Helpers/JwtHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Helpers/JwtHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Nationality/Repository/NationalityRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Nationality/Repository/NationalityRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/User/Controller/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Controller/TestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/User/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/User/Service/AuthService.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Service/AuthService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/User/Service/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Service/UserService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -60,14 +69,6 @@
       <workItem from="1607859388404" duration="1951000" />
       <workItem from="1619271236376" duration="874000" />
     </task>
-    <task id="LOCAL-00001" summary="Dodane Controller, Service, Repository do Stats i Position.">
-      <created>1619273765170</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1619273765170</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,9 +85,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dodane Controller, Service, Repository do Stats i Position." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodane Controller, Service, Repository do Stats i Position." />
   </component>
 </project>
