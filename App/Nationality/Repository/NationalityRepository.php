@@ -3,7 +3,7 @@ use App\Database\DatabaseConnector;
 use App\Database\Repository\Repository;
 use App\Nationality\Entity\NationalityEntity;
 use PDO;
-class StatsRepository extends Repository
+class NationalityRepository extends Repository
 {
     protected function getEntityName(){
         return "App\Nationality\Entity\NationalityEntity";
@@ -12,7 +12,7 @@ class StatsRepository extends Repository
         return "nationality";
     }
 
-    protected function isNationalityExists($id): string
+    public function isNationalityExists($id): string
     {
         return "isNationalityExist: ".$id;
     }

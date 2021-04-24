@@ -3,8 +3,8 @@
 
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
-use App\User\Model\UserRequest;
-use App\User\Service\NationalityService;
+use App\Stats\Model\StatsRequest;
+use App\Stats\Service\StatsService;
 use Doctrine\Common\Annotations\AnnotationReader;
 use Doctrine\Common\Annotations\AnnotationRegistry;
 use ReflectionClass;
@@ -13,16 +13,16 @@ use zpt\anno\Annotations;
 /**
  * @Controller(path="/user")
  */
-class NationalityController {
+class StatsController {
 
-    private $nationalityService;
+    private $statsService;
 
     /**
      * UserController constructor.
-     * @param $nationalityService
+     * @param $statsService
      */
     public function __construct() {
-        $this->nationalityService = new NationalityService();
+        $this->statsService = new StatsService();
     }
 
 
@@ -36,29 +36,29 @@ class NationalityController {
     /**
      * @Action(method="POST")
      */
-    public function addNationality() {
-        echo sprintf("Added nationality");
+    public function addStats() {
+        echo sprintf("Added stats");
     }
 
     /**
      * @Authorized
      * @Action(method="GET", path="/{id}")
      */
-    public function getNationality($id) {
-        echo sprintf("Got nationality with id: %s", array($id));
+    public function getStats($id) {
+        echo sprintf("Got stats with id: %s", array($id));
     }
 
     /**
      * @Action(method="PUT", path="/{id}")
      */
-    public function updateNationality($id) {
-        echo sprintf("Updated nationality with id: %s", array($id));
+    public function updateStats($id) {
+        echo sprintf("Updated stats with id: %s", array($id));
     }
 
     /**
      * @Action(method="DELETE", path="/{id}")
      */
-    public function deleteNationality($id) {
-        echo sprintf("Deleted nationality with id: %s", array($id));
+    public function deleteStats($id) {
+        echo sprintf("Deleted stats with id: %s", array($id));
     }
 }

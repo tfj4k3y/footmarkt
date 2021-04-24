@@ -5,11 +5,17 @@ use App\Stats\Entity\StatsEntity;
 use PDO;
 class StatsRepository extends Repository
 {
+
     protected function getEntityName(){
         return "App\Stats\Entity\StatsEntity";
     }
     protected function getTableName(){
         return "stats";
     }
+
+    public function isStatsExists($id){
+        return "isStatsExist: ".$id;
+    }
+
 
 }
