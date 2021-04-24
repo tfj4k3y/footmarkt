@@ -14,4 +14,8 @@ class ClubRepository extends Repository {
     protected function getTableName() {
         return "club";
     }
+    public function isClubExists($id): string
+    {
+        return "isClubExist: ".$id;
+    }
 }

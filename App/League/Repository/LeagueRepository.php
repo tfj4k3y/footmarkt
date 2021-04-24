@@ -14,4 +14,8 @@ class LeagueRepository extends Repository {
     protected function getTableName() {
         return "league";
     }
+    public function isLeagueExists($id): string
+    {
+        return "isLeagueExist: ".$id;
+    }
 }
