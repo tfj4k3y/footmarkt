@@ -34,6 +34,7 @@ class PositionController {
     }
 
     /**
+     * @Authorized(permission="sport_data_addition")
      * @Action(method="POST")
      */
     public function addPosition() {
@@ -49,6 +50,7 @@ class PositionController {
     }
 
     /**
+     * @Authorized(permission="sport_data_edition")
      * @Action(method="PUT", path="/{id}")
      */
     public function updatePosition($id) {
@@ -56,6 +58,7 @@ class PositionController {
     }
 
     /**
+     * @Authorized(permission="sport_data_deletion")
      * @Action(method="DELETE", path="/{id}")
      */
     public function deletePosition($id) {
