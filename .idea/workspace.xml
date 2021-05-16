@@ -3,27 +3,40 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="Dodałem Entity i Repository do tabel: &#10;- comments&#10;- user&#10;- group&#10;- permission&#10;_ group_permission&#10;&#10;Zrobiłem też klasy abstrakcyjne w App/Database">
-      <change afterPath="$PROJECT_DIR$/App/Nationality/Controller/NationalityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Nationality/Service/NationalityService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/footmarkt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/footmarkt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="Dodane modele i requesty do Klubu i Ligi">
+      <change afterPath="$PROJECT_DIR$/App/Club/Model/ClubModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Club/Model/ClubRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/League/Model/LeagueModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/League/Model/LeagueRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Helpers/JwtHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Helpers/JwtHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Nationality/Repository/NationalityRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Nationality/Repository/NationalityRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/User/Controller/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Controller/TestController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/User/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Controller/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/User/Service/AuthService.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Service/AuthService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/User/Service/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Service/UserService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Club/Controller/ClubController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Club/Controller/ClubController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/League/Controller/LeagueController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/League/Controller/LeagueController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -45,6 +58,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lYC4smyYK0kCN7DkOJBVDoJFKv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,6 +84,11 @@
       <workItem from="1607859295484" duration="33000" />
       <workItem from="1607859388404" duration="1951000" />
       <workItem from="1619271236376" duration="874000" />
+      <workItem from="1619679414564" duration="8000" />
+      <workItem from="1620652908452" duration="15000" />
+      <workItem from="1620652962484" duration="2808000" />
+      <workItem from="1621097564481" duration="22000" />
+      <workItem from="1621166909517" duration="1201000" />
     </task>
     <servers />
   </component>
@@ -85,5 +106,24 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dodane uprawnienia w lidze i klubie" />
+    <MESSAGE value="Dodane modele i requesty do Klubu i Ligi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodane modele i requesty do Klubu i Ligi" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="273" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1621167396290">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="273" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1621167396290" />
+    <state x="690" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1621167889856">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621167889856" />
+    <state x="700" y="247" key="NewPhpClassDialog" timestamp="1621167377583">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="700" y="247" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621167377583" />
   </component>
 </project>
