@@ -8,6 +8,8 @@ use PDO;
 class CommentsRepository extends Repository
 {
 
+
+
     protected function getEntityName()
     {
         return "App\Comments\Entity\CommentsEntity";
@@ -16,5 +18,10 @@ class CommentsRepository extends Repository
     protected function getTableName()
     {
         return "comments";
+    }
+
+    public function isCommentExists($id): string
+    {
+        return "isCommentExist: ".$id;
     }
 }
