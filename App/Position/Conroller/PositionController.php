@@ -1,6 +1,9 @@
 <?php namespace App\Position\Controller;
 
 
+use App\Position\Model\PositionRequest;
+use App\Position\Repository\PositionRepository;
+use App\Position\Service\PositionService;
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
 use App\Position\Model\UserRequest;
@@ -38,7 +41,11 @@ class PositionController {
      * @Action(method="POST")
      */
     public function addPosition() {
-        echo sprintf("Added position");
+        $request = RestBodyReader::readBody(PositionRequest::class);
+
+        $positionEntity = $this->positionService->createPosition($request);
+
+        echo JsonSerializer::getInstance()->serialize($positionEntity, 'json');
     }
 
     /**
@@ -55,6 +62,14 @@ class PositionController {
      */
     public function updatePosition($id) {
         echo sprintf("Updated position with id: %s", array($id));
+
+        $x = new PositionRepository();
+
+        $entity = $x->getById($id);
+
+        $entity->setName("Goalkeeper");
+
+        $x->save($entity);
     }
 
     /**

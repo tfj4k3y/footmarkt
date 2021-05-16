@@ -1,6 +1,8 @@
 <?php namespace App\Nationality\Controller;
 
 
+use App\Nationality\Model\NationalityRequest;
+use App\Nationality\Repository\NationalityRepository;
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
 use App\User\Model\UserRequest;
@@ -38,7 +40,12 @@ class NationalityController {
      * @Action(method="POST")
      */
     public function addNationality() {
-        echo sprintf("Added nationality");
+        $request = RestBodyReader::readBody(NationalityRequest::class);
+
+        $nationalityEntity = $this->addNationality($request);
+
+        echo JsonSerializer::getInstance()->serialize($nationalityEntity, 'json');
+
     }
 
     /**
@@ -55,6 +62,14 @@ class NationalityController {
      */
     public function updateNationality($id) {
         echo sprintf("Updated nationality with id: %s", array($id));
+
+        $x = new NationalityRepository();
+
+        $entity = $x->getById($id);
+
+        $entity->setName("Poland");
+
+        $x->save($entity);
     }
 
     /**

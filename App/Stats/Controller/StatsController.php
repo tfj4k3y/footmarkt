@@ -4,6 +4,7 @@
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
 use App\Stats\Model\StatsRequest;
+use App\Stats\Repository\StatsRepository;
 use App\Stats\Service\StatsService;
 use Doctrine\Common\Annotations\AnnotationReader;
 use Doctrine\Common\Annotations\AnnotationRegistry;
@@ -38,7 +39,11 @@ class StatsController {
      * @Action(method="POST")
      */
     public function addStats() {
-        echo sprintf("Added stats");
+        $request = RestBodyReader::readBody(StatsRequest::class);
+
+        $statsEntity = $this->statsService->createStats($request);
+
+        echo JsonSerializer::getInstance()->serialize($statsEntity, 'json');
     }
 
     /**
@@ -55,6 +60,15 @@ class StatsController {
      */
     public function updateStats($id) {
         echo sprintf("Updated stats with id: %s", array($id));
+
+        $x = new StatsRepository();
+
+        $entity = $x->getById($id);
+
+        $entity->setAppearances(1);
+        $entity->setGoals(1);
+        $entity->setAssists(1);
+        $entity->setPitchTime(90);
     }
 
     /**
