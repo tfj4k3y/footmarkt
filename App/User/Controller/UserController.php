@@ -61,6 +61,18 @@ class UserController {
      */
     public function updateUser($id) {
         echo sprintf("Updated user with id: %s", array($id));
+
+        /*
+        $x = new UserRepository();
+
+        @var UserEntity $entity
+        $entity = $x->getById($id);
+
+        $entity->setUsername("ala_ma_kota");
+
+        $x->save($entity);
+
+        */
     }
 
     /**
