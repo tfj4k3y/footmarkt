@@ -1,6 +1,9 @@
 <?php namespace App\League\Controller;
 
 
+use App\League\Entity\LeagueEntity;
+use App\League\Model\LeagueRequest;
+use App\League\Repository\LeagueRepository;
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
 use App\User\Model\UserRequest;
@@ -38,7 +41,11 @@ class LeagueController {
      * @Action(method="POST")
      */
     public function addLeague() {
-        echo sprintf("Added league");
+        $request = RestBodyReader::readBody(LeagueRequest::class);
+
+        $leagueEntity = $this->leagueService->createLeague($request);
+
+        echo JsonSerializer::getInstance()->serialize($leagueEntity, 'json');
     }
 
     /**
@@ -53,7 +60,14 @@ class LeagueController {
      * @Action(method="PUT", path="/{id}")
      */
     public function updateLeague($id) {
-        echo sprintf("Updated league with id: %s", array($id));
+        $x = new LeagueRepository();
+
+        /** @var LeagueEntity $entity */
+        $entity = $x->getById($id);
+
+        $entity->setName("Premier League");
+
+        $x->save($entity);
     }
 
     /**
