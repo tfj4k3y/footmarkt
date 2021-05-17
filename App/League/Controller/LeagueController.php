@@ -68,6 +68,8 @@ class LeagueController {
         $entity->setName("Premier League");
 
         $x->save($entity);
+
+        //TODO odebranie requestu metodą read body. Wywołanie metody z serwisu i zwrócenie jej odp userowi
     }
 
     /**
