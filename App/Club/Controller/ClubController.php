@@ -1,11 +1,8 @@
 <?php namespace App\Club\Controller;
 
 
-use App\Club\Entity\ClubEntity;
-use App\Club\Repository\ClubRepository;
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
-use App\User\Model\ClubRequest;
 use App\User\Model\UserRequest;
 use App\Club\Service\ClubService;
 use Doctrine\Common\Annotations\AnnotationReader;
@@ -41,11 +38,7 @@ class ClubController {
      * @Action(method="POST")
      */
     public function addClub() {
-        $request = RestBodyReader::readBody(ClubRequest::class);
-
-        $clubEntity = $this->clubService->createClub($request);
-
-        echo JsonSerializer::getInstance()->serialize($clubEntity, 'json');
+        echo sprintf("Added club");
     }
 
     /**
@@ -61,14 +54,7 @@ class ClubController {
      * @Action(method="PUT", path="/{id}")
      */
     public function updateClub($id) {
-        $x = new ClubRepository();
-
-        /** @var ClubEntity $entity */
-        $entity = $x->getById($id);
-
-        $entity->setName("Manchester United");
-
-        $x->save($entity);
+        echo sprintf("Updated club with id: %s", array($id));
     }
 
     /**

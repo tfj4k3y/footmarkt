@@ -1,0 +1,94 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"768ebed1-c14d-469d-9770-6faf929fa6d1\" name=\"Default Changelist\" comment=\"Dodałem Entity i Repository do tabel: &#10;- comments&#10;- user&#10;- group&#10;- permission&#10;_ group_permission&#10;&#10;Zrobiłem też klasy abstrakcyjne w App/Database\">\r\n      <change afterPath=\"$PROJECT_DIR$/App/Nationality/Controller/NationalityController.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/App/Nationality/Service/NationalityService.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/footmarkt.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/footmarkt.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/php.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/php.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/App/Helpers/JwtHelper.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/App/Helpers/JwtHelper.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/App/Nationality/Repository/NationalityRepository.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/App/Nationality/Repository/NationalityRepository.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/App/User/Controller/TestController.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/App/User/Controller/TestController.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/App/User/Controller/UserController.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/App/User/Controller/UserController.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/App/User/Service/AuthService.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/App/User/Service/AuthService.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/App/User/Service/UserService.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/App/User/Service/UserService.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/App/composer.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/composer.json\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>\r\n    <execution />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"PhpWorkspaceProjectConfiguration\">\r\n    <include_path>\r\n      <path value=\"$PROJECT_DIR$/vendor/zeptech/annotations\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/composer\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/bramus/router\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/inflector\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-ctype\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/firebase/php-jwt\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/property-access\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/haydenpierce/class-finder\" />\r\n      <path value=\"$PROJECT_DIR$/vendor/symfony/serializer\" />\r\n    </include_path>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1lYC4smyYK0kCN7DkOJBVDoJFKv\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"php.override.implement.member.chooser.php.doc\" value=\"NONE\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"768ebed1-c14d-469d-9770-6faf929fa6d1\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1607764456080</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1607764456080</updated>\r\n      <workItem from=\"1607764460547\" duration=\"633000\" />\r\n      <workItem from=\"1607778093996\" duration=\"296000\" />\r\n      <workItem from=\"1607859295484\" duration=\"33000\" />\r\n      <workItem from=\"1607859388404\" duration=\"1951000\" />\r\n      <workItem from=\"1619271236376\" duration=\"874000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision fb0da883132760a838b3a4c111ca26f79e4b28ec)
++++ .idea/workspace.xml	(date 1621169037140)
+@@ -3,33 +3,39 @@
+   <component name="AutoImportSettings">
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="Dodałem Entity i Repository do tabel: &#10;- comments&#10;- user&#10;- group&#10;- permission&#10;_ group_permission&#10;&#10;Zrobiłem też klasy abstrakcyjne w App/Database">
+-      <change afterPath="$PROJECT_DIR$/App/Nationality/Controller/NationalityController.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/App/Nationality/Service/NationalityService.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/footmarkt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/footmarkt.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
++    <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="Dodane modele i requesty do Klubu i Ligi">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/App/Helpers/JwtHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Helpers/JwtHelper.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/App/Nationality/Repository/NationalityRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Nationality/Repository/NationalityRepository.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/App/User/Controller/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Controller/TestController.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/App/User/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Controller/UserController.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/App/User/Service/AuthService.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Service/AuthService.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/App/User/Service/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Service/UserService.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/App/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="ComposerSettings">
++  <component name="ComposerSettings" doNotAsk="true">
+     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+     <execution />
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+   <component name="PhpWorkspaceProjectConfiguration">
+     <include_path>
+@@ -45,6 +51,9 @@
+     </include_path>
+   </component>
+   <component name="ProjectId" id="1lYC4smyYK0kCN7DkOJBVDoJFKv" />
++  <component name="ProjectLevelVcsManager">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -68,6 +77,8 @@
+       <workItem from="1607859295484" duration="33000" />
+       <workItem from="1607859388404" duration="1951000" />
+       <workItem from="1619271236376" duration="874000" />
++      <workItem from="1621168363832" duration="83000" />
++      <workItem from="1621168461091" duration="576000" />
+     </task>
+     <servers />
+   </component>
+@@ -86,4 +97,10 @@
+     </option>
+     <option name="oldMeFiltersMigrated" value="true" />
+   </component>
++  <component name="WindowStateProjectService">
++    <state x="457" y="245" width="585" height="801" key="find.popup" timestamp="1621168505060">
++      <screen x="0" y="0" width="1920" height="1050" />
++    </state>
++    <state x="457" y="245" width="585" height="801" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1621168505060" />
++  </component>
+ </project>
+\ No newline at end of file
