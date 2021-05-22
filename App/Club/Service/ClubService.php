@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Club\Service;
+use App\Club\Model\ClubRequest;
 use App\Club\Repository\ClubRepository;
 use App\Club\Entity\ClubEntity;
 
@@ -15,7 +16,7 @@ class ClubService
         $this->clubRepository = new ClubRepository();
     }
 
-    public function createClub(ClubEntity $clubEntity){
+    public function createClub(ClubRequest $clubRequest){
         echo sprintf("Club created");
     }
 
@@ -25,5 +26,8 @@ class ClubService
 
     public function isClubExists($id) {
         return $this->clubRepository->isClubExists($id);
+    }
+    public function updateLeague($id, ClubRequest $clubRequest){
+        //TODO pobranie wpisu z bazy danych o danym ID. Uaktualnienie danych pobranego wpisu danymi z requestu. Zapisanie wpisu/encjim etodą save z repozytoruim i zwrócenie jej wyniku.
     }
 }
