@@ -27,4 +27,9 @@ class PositionService
     {
         return $this->positionRepository->isPositionExists($id);
     }
+
+    public function updatePosition(PositionEntity $positionEntity){
+        echo sprintf("Position created");
+        //TODO
+    }
 }

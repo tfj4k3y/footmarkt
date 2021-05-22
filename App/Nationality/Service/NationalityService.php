@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Nationality\Service;
+use App\Nationality\Model\NationalityRequest;
 use App\Nationality\Repository\NationalityRepository;
 use App\Nationality\Entity\NationalityEntity;
 
@@ -15,7 +16,7 @@ class NationalityService
         $this->nationalityRepository = new NationalityRepository();
     }
 
-    public function createNationality(NationalityEntity $nationalityEntity){
+    public function createNationality(NationalityRequest $nationalityRequest){
         echo sprintf("Nationality created");
     }
 
@@ -25,5 +26,10 @@ class NationalityService
 
     public function isNationalityExists($id) {
         return $this->nationalityRepository->isNationalityExists($id);
+    }
+
+    public function updateNationality(NationalityRequest $nationalityRequest){
+        echo sprintf("Nationality created");
+        //TODO
     }
 }

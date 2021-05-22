@@ -26,4 +26,9 @@ class StatsService
     public function isNationalityExists($id) {
         return $this->statsRepository->isStatsExists($id);
     }
+
+    public function updateStats(StatsEntity $statsEntity){
+        echo sprintf("Stats created");
+        //TODO
+    }
 }

@@ -6,7 +6,7 @@ use App\Nationality\Repository\NationalityRepository;
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
 use App\User\Model\UserRequest;
-use App\User\Service\NationalityService;
+use App\Nationality\Service\NationalityService;
 use Doctrine\Common\Annotations\AnnotationReader;
 use Doctrine\Common\Annotations\AnnotationRegistry;
 use ReflectionClass;
@@ -42,7 +42,7 @@ class NationalityController {
     public function addNationality() {
         $request = RestBodyReader::readBody(NationalityRequest::class);
 
-        $nationalityEntity = $this->addNationality($request);
+        $nationalityEntity = $this->nationalityService->createNationality($request);
 
         echo JsonSerializer::getInstance()->serialize($nationalityEntity, 'json');
 
@@ -63,13 +63,11 @@ class NationalityController {
     public function updateNationality($id) {
         echo sprintf("Updated nationality with id: %s", array($id));
 
-        $x = new NationalityRepository();
+        $request = RestBodyReader::readBody(NationalityRequest::class);
 
-        $entity = $x->getById($id);
+        $nationalityEntity = $this->nationalityService->updateNationality($request);
 
-        $entity->setName("Poland");
-
-        $x->save($entity);
+        echo JsonSerializer::getInstance()->serialize($nationalityEntity, 'json');
     }
 
     /**
@@ -79,4 +77,5 @@ class NationalityController {
     public function deleteNationality($id) {
         echo sprintf("Deleted nationality with id: %s", array($id));
     }
+
 }

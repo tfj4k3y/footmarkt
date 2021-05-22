@@ -61,14 +61,11 @@ class StatsController {
     public function updateStats($id) {
         echo sprintf("Updated stats with id: %s", array($id));
 
-        $x = new StatsRepository();
+        $request = RestBodyReader::readBody(StatsRequest::class);
 
-        $entity = $x->getById($id);
+        $statsEntity = $this->statsService->updateStats($request);
 
-        $entity->setAppearances(1);
-        $entity->setGoals(1);
-        $entity->setAssists(1);
-        $entity->setPitchTime(90);
+        echo JsonSerializer::getInstance()->serialize($statsEntity, 'json');
     }
 
     /**

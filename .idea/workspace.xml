@@ -24,9 +24,13 @@
   <component name="ChangeListManager">
     <list default="true" id="768ebed1-c14d-469d-9770-6faf929fa6d1" name="Default Changelist" comment="Dodałem Entity i Repository do tabel: &#10;- comments&#10;- user&#10;- group&#10;- permission&#10;_ group_permission&#10;&#10;Zrobiłem też klasy abstrakcyjne w App/Database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Club/Controller/ClubController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Club/Controller/ClubController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Club/Service/ClubService.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Club/Service/ClubService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/League/Controller/LeagueController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/League/Controller/LeagueController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Nationality/Controller/NationalityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Nationality/Controller/NationalityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Nationality/Service/NationalityService.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Nationality/Service/NationalityService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Player/Service/PlayerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Player/Service/PlayerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Position/Conroller/PositionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Position/Conroller/PositionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Position/Service/PositionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Position/Service/PositionService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Stats/Controller/StatsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Stats/Controller/StatsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Stats/Service/StatsService.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Stats/Service/StatsService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +93,6 @@
       <workItem from="1621161768920" duration="8000" />
       <workItem from="1621166966269" duration="2066000" />
     </task>
-    <task id="LOCAL-00001" summary="Dodałem Entity i Repository do tabel: &#10;- comments&#10;- user&#10;- group&#10;- permission&#10;_ group_permission&#10;&#10;Zrobiłem też klasy abstrakcyjne w App/Database">
-      <created>1621693005462</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1621693005462</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,19 +110,11 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dodałem Entity i Repository do tabel: &#10;- comments&#10;- user&#10;- group&#10;- permission&#10;_ group_permission&#10;&#10;Zrobiłem też klasy abstrakcyjne w App/Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodałem Entity i Repository do tabel: &#10;- comments&#10;- user&#10;- group&#10;- permission&#10;_ group_permission&#10;&#10;Zrobiłem też klasy abstrakcyjne w App/Database" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1621693209149">
+    <state x="690" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1621692966271">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621693209149" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1621693008123">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1621693008123" />
+    <state x="690" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1621692966271" />
     <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621692859741">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

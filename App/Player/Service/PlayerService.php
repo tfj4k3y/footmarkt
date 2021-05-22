@@ -15,7 +15,7 @@ class PlayerService
         $this->playerService = new PlayerService();
     }
 
-    public function createPlayer(PlayerEntity $playerEntity){
+    public function createPlayer(PlayerRe$playerEntity){
         echo sprintf("Player created");
     }
 

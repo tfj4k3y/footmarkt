@@ -63,13 +63,11 @@ class PositionController {
     public function updatePosition($id) {
         echo sprintf("Updated position with id: %s", array($id));
 
-        $x = new PositionRepository();
+        $request = RestBodyReader::readBody(PositionRequest::class);
 
-        $entity = $x->getById($id);
+        $positionEntity = $this->positionService->updatePosition($request);
 
-        $entity->setName("Goalkeeper");
-
-        $x->save($entity);
+        echo JsonSerializer::getInstance()->serialize($positionEntity, 'json');
     }
 
     /**
