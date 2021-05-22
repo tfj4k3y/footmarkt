@@ -27,7 +27,7 @@ class ClubService
     public function isClubExists($id) {
         return $this->clubRepository->isClubExists($id);
     }
-    public function updateLeague($id, ClubRequest $clubRequest){
+    public function updateClub($id, ClubRequest $clubRequest){
         //TODO pobranie wpisu z bazy danych o danym ID. Uaktualnienie danych pobranego wpisu danymi z requestu. Zapisanie wpisu/encjim etodą save z repozytoruim i zwrócenie jej wyniku.
     }
 }

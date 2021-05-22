@@ -61,14 +61,19 @@ class ClubController {
      * @Action(method="PUT", path="/{id}")
      */
     public function updateClub($id) {
-        $x = new ClubRepository();
+       /* $x = new ClubRepository();
 
-        /** @var ClubEntity $entity */
+
         $entity = $x->getById($id);
 
         $entity->setName("Manchester United");
 
-        $x->save($entity);
+        $x->save($entity);*/
+        $request = RestBodyReader::readBody(ClubRequest::class);
+
+        $clubEntity = $this->clubService->updateClub($id,$request);
+
+        echo JsonSerializer::getInstance()->serialize($clubEntity, 'json');
     }
 
     /**

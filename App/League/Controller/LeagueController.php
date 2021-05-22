@@ -60,14 +60,19 @@ class LeagueController {
      * @Action(method="PUT", path="/{id}")
      */
     public function updateLeague($id) {
-        $x = new LeagueRepository();
+       /*$x = new LeagueRepository();
 
-        /** @var LeagueEntity $entity */
+
         $entity = $x->getById($id);
 
         $entity->setName("Premier League");
 
-        $x->save($entity);
+        $x->save($entity);*/
+        $request = RestBodyReader::readBody(LeagueRequest::class);
+
+        $leagueEntity = $this->leagueService->updateLeague($id,$request);
+
+        echo JsonSerializer::getInstance()->serialize($leagueEntity, 'json');
 
         //TODO odebranie requestu metodą read body. Wywołanie metody z serwisu i zwrócenie jej odp userowi
     }
