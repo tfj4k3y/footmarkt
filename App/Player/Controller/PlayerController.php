@@ -1,6 +1,7 @@
 <?php namespace App\Player\Controller;
 
 
+use App\Player\Model\PlayerRequest;
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
 use App\User\Model\UserRequest;
@@ -38,7 +39,14 @@ class PlayerController {
      * @Action(method="POST")
      */
     public function addPlayer() {
-        echo sprintf("Added player");
+
+        /** @var PlayerRequest $request */
+        $request = RestBodyReader::readBody(PlayerRequest::class);
+
+        $playerEntity = $this->playerService->createPlayer($request);
+
+        echo JsonSerializer::getInstance()->serialize($playerEntity, 'json');
+
     }
 
     /**
@@ -53,7 +61,13 @@ class PlayerController {
      * @Action(method="PUT", path="/{id}")
      */
     public function updatePlayer($id) {
-        echo sprintf("Updated player with id: %s", array($id));
+
+        $request = RestBodyReader::readBody(\App\Player\Model\PlayerRequest::class);
+
+        $playerEntity = $this->playerService->updateClub($id,$request);
+
+        echo JsonSerializer::getInstance()->serialize($playerEntity, 'json');
+
     }
 
     /**

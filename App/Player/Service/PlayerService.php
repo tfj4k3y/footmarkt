@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Player\Service;
+use App\Player\Model\PlayerRequest;
 use App\Player\Repository\PlayerRepository;
 use App\Player\Entity\PlayerEntity;
 
@@ -15,12 +16,16 @@ class PlayerService
         $this->playerService = new PlayerService();
     }
 
-    public function createPlayer(PlayerRe$playerEntity){
+    public function createPlayer(PlayerRequest $playerRequest){
         echo sprintf("Player created");
     }
 
     public function getPlayer($id) {
         echo sprintf("getPlayer: ".$id);
+    }
+
+    public function updatePlayer($id, PlayerRequest $playerRequest){
+        echo "test";
     }
 
     public function isPlayerExists($id) {

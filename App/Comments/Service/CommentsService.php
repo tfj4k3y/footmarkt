@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Comments\Service;
+use App\Comments\Model\CommentsRequest;
 use App\Nationality\Repository\NationalityRepository;
 use App\Comments\Entity\CommentsEntity;
 
@@ -15,12 +16,16 @@ class CommentsService
         $this->commentsService = new CommentsService();
     }
 
-    public function createComments(CommentsEntity $commentsEntity){
+    public function createComment(CommentsRequest $commentsRequest){
         echo sprintf("Comment created");
     }
 
     public function getComment($id) {
         echo sprintf("getComment: ".$id);
+    }
+
+    public function updateComment($id) {
+        echo "elo";
     }
 
     public function isCommentExists($id) {

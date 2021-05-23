@@ -38,7 +38,13 @@ class CommentsController {
      * @Action(method="POST")
      */
     public function addComment() {
-        echo sprintf("Added comment");
+
+        $request = RestBodyReader::readBody(\App\Comments\Model\CommentsRequest::class);
+
+        $commentsEntity = $this->commentsService->createComment($request);
+
+        echo JsonSerializer::getInstance()->serialize($commentsEntity, 'json');
+
     }
 
     /**
@@ -53,7 +59,13 @@ class CommentsController {
      * @Action(method="PUT", path="/{id}")
      */
     public function updateComment($id) {
-        echo sprintf("Updated comment with id: %s", array($id));
+
+        $request = RestBodyReader::readBody(\App\Comments\Model\CommentsRequest::class);
+
+        $commentsEntity = $this->commentsService->updateComment($id,$request);
+
+        echo JsonSerializer::getInstance()->serialize($commentsEntity, 'json');
+
     }
 
     /**
